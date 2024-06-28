@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.991
+- serviceName: project.test628.integrations:test2
+  packages:
+  - name: Test628Project
+    version: "1.0"
