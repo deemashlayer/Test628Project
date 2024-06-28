@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/deemashlayer/Test628Project
   gitUsername: deemashlayer
   gitBranch: main
+services:
+- serviceName: project.test628.integrations:testdate
+  packages:
+  - name: Test628Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.991
