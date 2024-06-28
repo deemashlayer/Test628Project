@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Test628Project
+  gitServerName: dima
+  gitUrl: https://github.com/deemashlayer/Test628Project
+  gitUsername: deemashlayer
+  gitBranch: main
